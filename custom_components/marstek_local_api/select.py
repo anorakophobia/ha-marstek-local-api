@@ -157,7 +157,7 @@ class MarstekOperatingModeSelect(CoordinatorEntity, SelectEntity):
                     "start_time": "00:00",
                     "end_time": "23:59",
                     "week_set": 127,  # All days
-                    "power": 0,
+                    "power": -1500,
                     "enable": 1,
                 },
             }
